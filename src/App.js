@@ -6,8 +6,9 @@ import About from './About'
 import MyPortfolio from './MyPortfolio'
 import Contact from './Contact'
 import NotFound from './NotFound'
+import PortfolioContainer from './PortfolioContainer'
 
-const API = "http://localhost:3001/projects"
+const API = "http://localhost:3000/projects"
 
 
 function App() {
@@ -23,7 +24,7 @@ function App() {
       <Routes>
         <Route exact path="/" element={<Home/>} />
         <Route path="/about" element={<About/>}/>
-        <Route path="/portfolio" element= {<MyPortfolio/>}/> 
+        <Route path="/portfolio" element= {<PortfolioContainer projects={projects}/>}/> 
         <Route path="/contact" element={<Contact/>}/>
         <Route path="*" element={<NotFound />} />
       </Routes>
