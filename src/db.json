@@ -1,0 +1,31 @@
+{
+    "projects": [
+      {
+        "id": 0,
+        "name": "Dinebook",
+        "description": "A interactive website where users can recommend new restaurants in NYC.",
+        "tech": "React, Ruby on Rails",
+        "image_url": "URL needed",
+        "github": "https://github.com/matthew-lui/DineBook",
+        "loom": "URL needed"
+      },
+      {
+        "id": 1,
+        "name": "Wander",
+        "description": "Wander is a niche travel blog that showcases unique experiences.",
+        "tech": "React, Ruby on Rails",
+        "image_url": "URL needed",
+        "github": "https://github.com/matthew-lui/wander",
+        "loom": "URL needed"
+      },
+      {
+        "id": 2,
+        "name": "Choose Your Anime",
+        "description": "Chose your anime adventure.",
+        "tech": "Reactapp",
+        "image_url": "URL needed",
+        "github": "https://github.com/matthew-lui/My-Anime-App",
+        "loom": "URL needed"
+      }
+    ]
+}
