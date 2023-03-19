@@ -33,7 +33,7 @@ function Contact() {
 
   return (
     <section className="container mx-auto px-4 py-8">
-      <h2 className="text-2xl font-semibold mb-6">Let's Connect</h2>
+      <h2 className="text-2xl font-semibold mb-6 text-center sm:text-3xl">Let's Connect</h2>
       {status === 'success' && (
         <p className="text-green-500 text-center mb-4">Talk to you soon!</p>
       )}
@@ -42,7 +42,7 @@ function Contact() {
           Error sending message. Please try again.
         </p>
       )}
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} className="w-full max-w-md mx-auto">
         <div className="mb-4">
           <label htmlFor="name" className="block mb-2">
             Name:
@@ -85,7 +85,7 @@ function Contact() {
             required
           />
         </div>
-        <button type="submit" className="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-700">
+        <button type="submit" className="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-700 w-full sm:w-auto">
           Send
         </button>
       </form>

@@ -4,13 +4,13 @@ import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 function MyPortfolio({ project }) {
   return (
-    <div className="container mx-auto px-4 py-8">
-      <h1 className="text-3xl font-bold mb-4">{project.name}</h1>
-      <h2 className="text-2xl font-semibold mb-2">{project.description}</h2>
-      <h3 className="text-xl font-medium mb-1">{project.tech}</h3>
-      <h4 className="text-xl font-medium mb-1">{project.image_url}</h4>
-      <h5 className="text-xl font-medium mb-1">{project.loom}</h5>
-      <div className="flex space-x-4">
+    <div className="container mx-auto px-4 py-15">
+      <h1 className="text-2xl font-bold mb-4 text-center">{project.name}</h1>
+      <h2 className="text-xl font-semibold mb-2 text-center">{project.description}</h2>
+      <h3 className="text-l font-medium mb-1 text-center">{project.tech}</h3>
+      <h4 className="text-l font-medium mb-1 text-center">{project.image_url}</h4>
+      <h5 className="text-l font-medium mb-1 text-center">{project.loom}</h5>
+      <div className="flex space-x-4 justify-center">
         <a
           href={project.github}
           target="_blank"

@@ -3,10 +3,10 @@ import Navbar from './Navbar'
 import {Route, Routes} from 'react-router-dom'
 import Home from './Home'
 import About from './About'
-import MyPortfolio from './MyPortfolio'
 import Contact from './Contact'
 import NotFound from './NotFound'
 import PortfolioContainer from './PortfolioContainer'
+import Footer from './Footer'
 
 const API = "http://localhost:3000/projects"
 
@@ -28,7 +28,7 @@ function App() {
         <Route path="/contact" element={<Contact/>}/>
         <Route path="*" element={<NotFound />} />
       </Routes>
-      
+      <Footer />
     </div>
   );
 }
