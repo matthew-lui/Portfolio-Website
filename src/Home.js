@@ -7,7 +7,7 @@ function Home(props) {
       <section id="home" class="container mx-auto px-4 py-8">
         <h1 class="text-3xl font-bold mb-4">Welcome to My Portfolio!</h1>
         <p class="mb-4">
-          Hey there! I'm Matthew Lui, a Full Stack Software Engineer with a
+          I'm Matthew Lui, a Full Stack Software Engineer with a
           passion for creating seamless and engaging React applications. 
         </p>
         <p class="mb-4">

@@ -1,14 +1,14 @@
-import React from "react";
-import { NavLink } from "react-router-dom";
+import React from 'react';
+import { NavLink } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 function Navbar() {
   return (
     <nav className="bg-blue-900 text-white shadow-md">
-      <div className="container mx-auto px-250">
+      <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
-          <ul className="text-white hover:text-blue-300">
-            Matthew Lui 
-          </ul>
+          <ul className="text-white hover:text-blue-300">Matthew Lui</ul>
           <NavLink className="text-white hover:text-blue-300" exact to="/">
             Home
           </NavLink>
@@ -22,31 +22,27 @@ function Navbar() {
           >
             Portfolio
           </NavLink>
-          <NavLink
-            cclassName="text-white hover:text-blue-300"
-            exact
-            to="/Contact"
-          >
+          <NavLink className="text-white hover:text-blue-300" exact to="/Contact">
             Contact
           </NavLink>
           <ul>
             <a
-              href="https://www.linkedin.com"
+              href="https://www.linkedin.com/in/lui-matthewm/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-white hover:text-blue-300"
             >
-              LinkedIn
+              <FontAwesomeIcon icon={faLinkedin} size="lg" />
             </a>
           </ul>
           <ul>
             <a
-              href="https://www.github.com"
+              href="https://github.com/matthew-lui"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-white hover:text-blue-300"
+              className="text-white hover:text-blue-300 ml-4"
             >
-              GitHub
+              <FontAwesomeIcon icon={faGithub} size="lg" />
             </a>
           </ul>
         </div>

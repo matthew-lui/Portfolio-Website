@@ -1,4 +1,6 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 function MyPortfolio({ project }) {
   return (
@@ -6,16 +8,26 @@ function MyPortfolio({ project }) {
       <h1 className="text-3xl font-bold mb-4">{project.name}</h1>
       <h2 className="text-2xl font-semibold mb-2">{project.description}</h2>
       <h3 className="text-xl font-medium mb-1">{project.tech}</h3>
-      <h4 className="text-lg font-normal">
+      <h4 className="text-xl font-medium mb-1">{project.image_url}</h4>
+      <h5 className="text-xl font-medium mb-1">{project.loom}</h5>
+      <div className="flex space-x-4">
         <a
           href={project.github}
           target="_blank"
           rel="noopener noreferrer"
           className="text-blue-500 hover:text-blue-700"
         >
-          View on GitHub
+          <FontAwesomeIcon icon={faGithub} size="2x" />
         </a>
-      </h4>
+        <a
+          href={project.linkedin}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-500 hover:text-blue-700"
+        >
+          <FontAwesomeIcon icon={faLinkedin} size="2x" />
+        </a>
+      </div>
     </div>
   );
 }

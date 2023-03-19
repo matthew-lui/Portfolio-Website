@@ -6,20 +6,42 @@ function Contact() {
     email: '',
     message: '',
   });
-
+  const [status, setStatus] = useState('');
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
-
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // Handle form submission logic here
-    console.log(formData);
+    try {
+      const response = await fetch('https://formspree.io/f/mqkodzoz', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+      if (response.ok) {
+        setStatus('success');
+        setFormData({ name: '', email: '', message: '' });
+      } else {
+        setStatus('error');
+      }
+    } catch (error) {
+      setStatus('error');
+    }
   };
 
   return (
     <section className="container mx-auto px-4 py-8">
-      <h2 className="text-2xl font-semibold mb-6">Contact Me</h2>
+      <h2 className="text-2xl font-semibold mb-6">Let's Connect</h2>
+      {status === 'success' && (
+        <p className="text-green-500 text-center mb-4">Talk to you soon!</p>
+      )}
+      {status === 'error' && (
+        <p className="text-red-500 text-center mb-4">
+          Error sending message. Please try again.
+        </p>
+      )}
       <form onSubmit={handleSubmit}>
         <div className="mb-4">
           <label htmlFor="name" className="block mb-2">
@@ -64,7 +86,7 @@ function Contact() {
           />
         </div>
         <button type="submit" className="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-700">
-          Send Message
+          Send
         </button>
       </form>
     </section>
