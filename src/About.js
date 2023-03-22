@@ -3,7 +3,7 @@ import React from "react";
 function About(props) {
   return (
     <div>
-<section id="about-me" className="container mx-auto px-4 py-8 flex flex-col items-center">
+<section id="about-me" className="container mx-auto px-4 py-8 flex flex-col items-center pt-24">
   <h2 className="text-2xl font-semibold mb-4 text-center"></h2>
   <p className="mb-4">
     Hi there! I'm a Full Stack Software Engineer who loves building React

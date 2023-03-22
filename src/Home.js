@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 
 function Home(props) {
   return (
-    <div className="flex items-center justify-center">
+    <div className="flex items-center justify-center pt-24">
       <section id="home" className="container mx-8 px-20 py-20 text-center sm:px-5 md:px-40">
         <h1 className="text-3xl font-bold mb-7 sm:text-4xl">FULL STACK SOFTWARE ENGINEER</h1>
         <div>

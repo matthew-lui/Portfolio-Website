@@ -32,7 +32,7 @@ function Contact() {
   };
 
   return (
-    <section className="container mx-auto px-4 py-8">
+    <section className="container mx-auto px-4 py-8 pt-24">
       <h2 className="text-2xl font-semibold mb-6 text-center sm:text-3xl">Let's Connect</h2>
       {status === 'success' && (
         <p className="text-green-500 text-center mb-4">Talk to you soon!</p>

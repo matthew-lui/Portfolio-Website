@@ -7,6 +7,7 @@ import Contact from './Contact'
 import NotFound from './NotFound'
 import PortfolioContainer from './PortfolioContainer'
 import Footer from './Footer'
+import './App.css'
 
 const API = "http://localhost:3000/projects"
 
@@ -20,7 +21,7 @@ function App() {
   }, []);
   return (
     <div>
-      <Navbar />
+      <Navbar/>
       <Routes>
         <Route exact path="/" element={<Home/>} />
         <Route path="/about" element={<About/>}/>

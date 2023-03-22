@@ -4,7 +4,7 @@ import MatthewLogo from './MatthewLogo.png';
 
 function Navbar() {
   return (
-    <nav className="bg-blue-900 text-white shadow-md">
+    <nav className="bg-blue-900 text-white shadow-md fixed top-0 w-full z-10">
       <div className="container mx-auto px-5">
         <div className="flex items-center justify-between h-20">
           <ul className="text-white hover:text-blue-300">
