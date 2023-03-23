@@ -1,0 +1,31 @@
+{
+    "projects": [
+      {
+        "id": 0,
+        "name": "Dinebook",
+        "description": "A interactive website where users can recommend new restaurants in NYC.",
+        "tech": "React, Ruby on Rails",
+        "github": "https://github.com/matthew-lui/DineBook",
+        "loom": "https://www.loom.com/share/3bb3db196a2d43c9a43556a31dac6ee1",
+        "images": ["https://i.imgur.com/01wGcwF.png", "https://i.imgur.com/Qp9E5OG.png", "https://i.imgur.com/9dilk4L.png", "https://i.imgur.com/KqkbS4j.png"]
+      },
+      {
+        "id": 1,
+        "name": "Wander",
+        "description": "Wander is a niche travel blog that showcases unique experiences.",
+        "tech": "React, Ruby on Rails",
+        "github": "https://www.loom.com/share/9e8d15d2449f454cb4eff4afa5e4c2f2",
+        "loom": "www.loom.com",
+        "images": ["https://i.imgur.com/MopnBSr.png", "https://i.imgur.com/w4NSTiy.png", "https://i.imgur.com/3gMJNqS.png", "https://i.imgur.com/F3yKBrt.png"]
+      },
+      {
+        "id": 2,
+        "name": "Choose Your Anime Adventure",
+        "description": "Choose your anime adventure.",
+        "tech": "Reactapp",
+        "github": "https://github.com/matthew-lui/My-Anime-App",
+        "loom": "https://www.loom.com/share/7b32a0b5227e4e288fd426965436ac51",
+        "images": ["https://i.imgur.com/m1PrAn4.png", "https://i.imgur.com/ij8iuW4.png", "https://i.imgur.com/oC1dwLs.png", "https://i.imgur.com/QD8jlRN.png"]
+      }
+    ]
+  }
