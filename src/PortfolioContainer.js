@@ -59,7 +59,7 @@ function PortfolioContainer() {
               <div>
                 <p class="text-sm font-medium text-gray-700 mb-2"></p>
                 <a
-                  href=""
+                  href="https://www.loom.com/share/3bb3db196a2d43c9a43556a31dac6ee1"
                   target="_blank"
                   rel="noopener noreferrer"
                   class="text-gray-900 hover:bg-gray-400 duration-300">
@@ -120,7 +120,7 @@ function PortfolioContainer() {
               <div>
                 <p class="text-sm font-medium text-gray-700 mb-2"></p>
                 <a
-                  href=""
+                  href="https://www.loom.com/share/9e8d15d2449f454cb4eff4afa5e4c2f2"
                   target="_blank"
                   rel="noopener noreferrer"
                   class="text-gray-900 hover:bg-gray-400 duration-300">
@@ -180,7 +180,7 @@ function PortfolioContainer() {
               <div>
                 <p class="text-sm font-medium text-gray-700 mb-2"></p>
                 <a
-                  href=""
+                  href="https://www.loom.com/share/7b32a0b5227e4e288fd426965436ac51"
                   target="_blank"
                   rel="noopener noreferrer"
                   class="text-gray-900 hover:bg-gray-400 duration-300">
