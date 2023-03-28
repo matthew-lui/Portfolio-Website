@@ -8,7 +8,7 @@ function Navbar() {
       <div className="container mx-auto px-5">
         <div className="flex items-center justify-between h-20">
           <ul className="text-white hover:text-blue-300">
-            <img src={MatthewLogo} className="w-40 h-40" />
+            <img src={MatthewLogo} className="w-60 h-70" />
           </ul>
           <NavLink className="text-white hover:text-blue-300" exact to="/">
             Home
