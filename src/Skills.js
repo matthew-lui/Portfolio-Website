@@ -6,7 +6,7 @@ function Skills() {
             <div className="grid grid-cols-4 gap-4 place-content-evenly mt-3 mb-5"
 style={{
                   display: 'grid',
-                  gridTemplateColumns: 'repeat(3, 1fr)',
+                  gridTemplateColumns: 'repeat(5, 1fr)',
                   gap: '.05rem',
                   justifyItems: 'center'
                 }}>

@@ -1,5 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import ResumeModal from './ResumeModal';
 
 
 
@@ -32,6 +33,10 @@ function Home(props) {
         >
           Explore My Portfolio &rarr;
         </NavLink>
+
+        <h1 className="mt-10 mb-10">
+          <ResumeModal/>
+        </h1>
       </section>
     </div>
   );
