@@ -2,7 +2,9 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 
 
+
 function Home(props) {
+  
   return (
     <div className="flex items-center justify-center pt-24">
       <section id="home" className="container mx-8 px-20 py-20 text-center sm:px-5 md:px-40">
@@ -14,7 +16,7 @@ function Home(props) {
         </div>
         <p className="mb-4 text-lg sm:text-l">
           I'm Matthew Lui, a Full Stack Software Engineer with a passion for
-          creating seamless and engaging React applications.
+          creating seamless and engaging applications.
         </p>
         <p className="mb-4"></p>
         <p className="mb-4 text-lg sm:text-l">

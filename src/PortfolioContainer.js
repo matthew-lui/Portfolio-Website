@@ -53,7 +53,7 @@ function PortfolioContainer() {
                   target="_blank"
                   rel="noopener noreferrer"
                   class="text-gray-900 hover:bg-gray-400 duration-300">
-                  <FontAwesomeIcon icon={faGithub} />
+                  <FontAwesomeIcon icon={faGithub} /> Github
                 </a>
               </div>
               <div>
@@ -63,7 +63,7 @@ function PortfolioContainer() {
                   target="_blank"
                   rel="noopener noreferrer"
                   class="text-gray-900 hover:bg-gray-400 duration-300">
-                  <FontAwesomeIcon icon={faVideo} />
+                  <FontAwesomeIcon icon={faVideo} /> Loom Demo
                 </a>
               </div>
             </div>
@@ -114,7 +114,7 @@ function PortfolioContainer() {
                   target="_blank"
                   rel="noopener noreferrer"
                   class="text-gray-900 hover:bg-gray-400 duration-300">
-                  <FontAwesomeIcon icon={faGithub} />
+                  <FontAwesomeIcon icon={faGithub} /> Github
                 </a>
               </div>
               <div>
@@ -124,7 +124,7 @@ function PortfolioContainer() {
                   target="_blank"
                   rel="noopener noreferrer"
                   class="text-gray-900 hover:bg-gray-400 duration-300">
-                  <FontAwesomeIcon icon={faVideo} />
+                  <FontAwesomeIcon icon={faVideo} /> Loom Demo
                 </a>
               </div>
             </div>
@@ -169,13 +169,12 @@ function PortfolioContainer() {
             <div class="py-4 flex">
               <div class="mr-4">
                 <p class="text-sm font-medium text-gray-700 mb-2"></p>
-                <a
+                <a 
                   href="https://github.com/matthew-lui/My-Anime-App"
                   target="_blank"
                   rel="noopener noreferrer"
                   class="text-gray-900 hover:bg-gray-400 duration-300">
-                  <FontAwesomeIcon icon={faGithub} />
-                </a>
+                  <FontAwesomeIcon icon={faGithub} /> Github </a>
               </div>
               <div>
                 <p class="text-sm font-medium text-gray-700 mb-2"></p>
@@ -184,14 +183,14 @@ function PortfolioContainer() {
                   target="_blank"
                   rel="noopener noreferrer"
                   class="text-gray-900 hover:bg-gray-400 duration-300">
-                  <FontAwesomeIcon icon={faVideo} />
+                  <FontAwesomeIcon icon={faVideo} /> Loom Demo
                 </a>
               </div>
             </div>
             <div class="py-4">
               <p class="text-sm font-medium text-gray-700 mb-2">Tech Used:</p>
               <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                React
+                Javascript, React, CSS
               </span>
             </div>
           </div>
