@@ -1,14 +1,14 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import ResumeModal from './ResumeModal';
-
+import NYCSkyline from './NYCSkyline.jpg';
 
 
 function Home(props) {
-  
   return (
-    <div className="flex items-center justify-center pt-24">
-      <section id="home" className="container mx-8 px-20 py-20 text-center sm:px-5 md:px-40">
+    <div className="flex flex-col items-center justify-center pt-10 md:pt-24">
+      <img className="h-80 w-full md:w-auto" src={NYCSkyline}></img>
+      <section id="home" className="container mx-auto px-4 py-10 md:py-20 text-center md:px-20">
         <h1 className="text-3xl font-bold mb-7 sm:text-4xl">FULL STACK SOFTWARE ENGINEER</h1>
         <div>
           <h2 className="text-2xl font-bold mb-2 sm:text-xl">
@@ -35,7 +35,7 @@ function Home(props) {
         </NavLink>
 
         <h1 className="mt-10 mb-10">
-          <ResumeModal/>
+          <ResumeModal />
         </h1>
       </section>
     </div>

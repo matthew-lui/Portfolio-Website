@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Modal from 'react-modal';
+import MatthewLuiModalResume from './MatthewLuiModalResume.pdf';
 
 Modal.setAppElement('#root'); // set the root element for accessibility purposes
 
@@ -41,8 +42,8 @@ function ResumeModal() {
         }}
       >
         <div className="flex justify-center items-center w-full h-full">
-          <iframe style={{ border: 'none', width: '100%', height: '100%' }} className="w-full h-full" src="https://docs.google.com/document/d/e/2PACX-1vSH3kte4eTVjEl6L29eyAPPCNyTHuu1H2TYxFjS-b8SgDTKNUTbbUjLZ36gRuipdtjJ3vaFzdiFNS84/pub?embedded=true"></iframe>
-          <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded absolute top-0 right-0" onClick={handleModalClose}>Close</button>
+          <iframe style={{ border: 'none', width: '100%', height: '100%' }} className="w-full h-full" src={MatthewLuiModalResume}></iframe>
+          {/* <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded absolute top-0 right-0" onClick={handleModalClose}>Close</button> */}
         </div>
       </Modal>
     </>
