@@ -34,8 +34,8 @@ function Contact() {
 
   return (
     <div className="flex flex-col md:flex-row items-center gap-8 md:gap-0">
-      <img className="h-80 w-full md:w-auto md:mr-12 md:p-4 md:pl-8" src={NYCMidtown} alt="NYC" />
-      <section className="container mx-auto px-4 py-8 pt-24">
+      <img className="h-80 w-full md:w-auto md:mr-14 md:p-0 md:pl-10" src={NYCMidtown} alt="NYC" />
+      <section className="container mx-auto px-4 py-8 pt-36">
         <h2 className="text-2xl font-semibold mb-6 text-center sm:text-3xl">Let's Connect</h2>
         {status === 'success' && (
           <p className="text-green-500 text-center mb-4">Talk to you soon!</p>
@@ -46,7 +46,7 @@ function Contact() {
           </p>
         )}
         <form onSubmit={handleSubmit} className="w-full max-w-md mx-auto space-y-4">
-          <div className="mb-4">
+          <div className="mb-2">
             <label htmlFor="name" className="block mb-2">
               Name:
             </label>
