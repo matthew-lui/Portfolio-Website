@@ -43,7 +43,7 @@ function PortfolioContainer() {
           <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2">DineBook</div>
             <p class="text-gray-700 text-base">
-            A interactive website where users can recommend new restaurants in NYC
+            A interactive website where users can recommend new restaurants in NYC.
             </p>
             <div class="py-4 flex">
               <div class="mr-4">
@@ -69,7 +69,7 @@ function PortfolioContainer() {
             </div>
             <div class="py-4">
               <p class="text-sm font-medium text-gray-700 mb-2">Tech Used:</p>
-              <span class="inline-block bg-blue-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+              <span class="inline-block bg-blue-300 rounded-lg px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
                 React, Ruby on Rails
               </span>
             </div>
@@ -130,7 +130,7 @@ function PortfolioContainer() {
             </div>
             <div class="py-4">
               <p class="text-sm font-medium text-gray-700 mb-2">Tech Used:</p>
-              <span class="inline-block bg-blue-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+              <span class="inline-block bg-blue-300 rounded-lg px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
                 React, Ruby on Rails
               </span>
             </div>
@@ -164,7 +164,7 @@ function PortfolioContainer() {
           <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2">Anime Adventure</div>
             <p class="text-gray-700 text-base">
-            Anime App featuring the top 20 anime of all time
+            Anime App featuring the top 20 animes of all time.
             </p>
             <div class="py-4 flex">
               <div class="mr-4">
@@ -189,7 +189,7 @@ function PortfolioContainer() {
             </div>
             <div class="py-4">
               <p class="text-sm font-medium text-gray-700 mb-2">Tech Used:</p>
-              <span class="inline-block bg-blue-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+              <span class="inline-block bg-blue-300 rounded-lg px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
                 Javascript, React, CSS
               </span>
             </div>
