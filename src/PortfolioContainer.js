@@ -69,7 +69,7 @@ function PortfolioContainer() {
             </div>
             <div class="py-4">
               <p class="text-sm font-medium text-gray-700 mb-2">Tech Used:</p>
-              <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+              <span class="inline-block bg-blue-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
                 React, Ruby on Rails
               </span>
             </div>
@@ -130,7 +130,7 @@ function PortfolioContainer() {
             </div>
             <div class="py-4">
               <p class="text-sm font-medium text-gray-700 mb-2">Tech Used:</p>
-              <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+              <span class="inline-block bg-blue-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
                 React, Ruby on Rails
               </span>
             </div>
@@ -189,7 +189,7 @@ function PortfolioContainer() {
             </div>
             <div class="py-4">
               <p class="text-sm font-medium text-gray-700 mb-2">Tech Used:</p>
-              <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+              <span class="inline-block bg-blue-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
                 Javascript, React, CSS
               </span>
             </div>

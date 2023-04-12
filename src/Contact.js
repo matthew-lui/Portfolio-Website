@@ -33,6 +33,7 @@ function Contact() {
   };
 
   return (
+    <div class="flex flex-col md:flex-row items-center justify-center">
     <div className="flex flex-col md:flex-row items-center gap-8 md:gap-0">
       <img className="h-80 w-full md:w-auto md:mr-14 md:p-0 md:pl-10" src={NYCMidtown} alt="NYC" />
       <section className="container mx-auto px-4 py-8 pt-36">
@@ -93,6 +94,7 @@ function Contact() {
           </button>
         </form>
       </section>
+    </div>
     </div>
   );
 }
