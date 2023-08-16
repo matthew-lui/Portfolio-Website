@@ -12,9 +12,7 @@ function About(props) {
       >
         <h2 className="text-2xl font-semibold mb-4 text-center"></h2>
         <p className="mb-4 text-center">
-          After recently graduating as a Full Stack Software Engineer and
-          transitioning from a career in sales and business development, I bring
-          a diverse skill set, including expertise in JavaScript, HTML, CSS,
+          I bring a diverse skill set, including expertise in JavaScript, HTML, CSS,
           React, Ruby on Rails, and PostgreSQL. My passion for technology and
           unwavering drive to learn fuel my enthusiasm for participating in
           groundbreaking software engineering projects and significantly
