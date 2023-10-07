@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import ResumeModal from './ResumeModal';
+// import ResumeModal from './ResumeModal';
 import NYCSkyline from './NYCSkyline.jpg';
 
 
@@ -12,23 +12,18 @@ function Home(props) {
         <h1 className="text-3xl font-bold mb-0 sm:text-3xl">FULL STACK SOFTWARE ENGINEER</h1>
         <div>
         <h1 className="mt-3 mb-5">
-          <ResumeModal />
+          {/* <ResumeModal /> */}
         </h1>
           <h2 className="text-2xl font-bold mb-2 sm:text-xl">
             Welcome to My Portfolio Website
           </h2>
         </div>
         <p className="mb-4 text-lg sm:text-l">
-          I'm Matthew Lui, a Full Stack Software Engineer with a passion for
-          creating seamless and engaging applications.
+        I'm Matthew Lui, an aspiring Full Stack Software Engineer with a passion for creating intuitive and captivating applications.
         </p>
         <p className="mb-4"></p>
         <p className="mb-4 text-lg sm:text-l">
-          Take a moment to explore my portfolio, where you'll find examples of
-          my work, insights into my skills and expertise, and a glimpse into my
-          journey as a software engineer. If you like what you see, feel free
-          to get in touch! I'd love to hear from you and discuss potential
-          collaborations or job opportunities.
+        I invite you to browse through my portfolio. Here, you'll discover samples of my work, insights into my capabilities and understanding, and a snapshot of my growth as an aspiring software engineer. If my work resonates with you, please don't hesitate to reach out! I'm always eager to connect and discuss possible collaborations or job offers.
         </p>
         <NavLink
           to="/portfolio"

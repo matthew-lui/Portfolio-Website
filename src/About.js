@@ -71,8 +71,8 @@ function About(props) {
           <li>Client Onboarding</li>
           <li>HubSpot</li>
           <li>Salesforce</li>
-          <li>CRM</li>
-          <li>Customer Service</li>
+          <li>Customer Success </li>
+          <li>OutReach </li>
         </ul>
       </div>
     </div>
